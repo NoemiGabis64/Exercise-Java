@@ -1,12 +1,10 @@
-/**Cacule a média do Aluno sendo que o peso da primeira nota é
-3,5 e segunda nota 7,5.**/
-
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercise1{
     
 	public static void main(String[] args) {
+        
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 
