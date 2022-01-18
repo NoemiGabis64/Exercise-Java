@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise1",
+            "request": "launch",
+            "mainClass": "URI.Exercise1",
+            "projectName": "Exercise-Java_3e0cad78"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise2",
+            "request": "launch",
+            "mainClass": "URI.Exercise2",
+            "projectName": "Exercise-Java_3e0cad78"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise3",
+            "request": "launch",
+            "mainClass": "URI.Exercise3",
+            "projectName": "Exercise-Java_3e0cad78"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise4",
+            "request": "launch",
+            "mainClass": "URI.Exercise4",
+            "projectName": "Exercise-Java_3e0cad78"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise5",
+            "request": "launch",
+            "mainClass": "URI.Exercise5",
+            "projectName": "Exercise-Java_3e0cad78"
+        }
+    ]
+}

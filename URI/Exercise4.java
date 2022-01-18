@@ -10,6 +10,7 @@ public class Exercise4 {
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
+		
 		try (Scanner input = new Scanner (System.in)) {
 			double A = 0;
 			double n = 3.14159;
