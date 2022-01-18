@@ -1,7 +1,5 @@
-/**Write an algorithm (preferably in Java) that generates a table 
- * with the conversion from Fahrenheit to Celsius with values ranging 
- * 0 to 100 degrees Celsius. Describe what are the Inputs, 
- * outputs and processing of the algorithm [Use the (For) loop]**/
+/**Write an algorithm (preferably in Java) that generates a table with the conversion from Fahrenheit to Celsius with values ranging  0 to 100 degrees Celsius. Describe what are the Inputs, 
+ outputs and processing of the algorithm [Use the (For) loop]**/
 
 package URI;
 
