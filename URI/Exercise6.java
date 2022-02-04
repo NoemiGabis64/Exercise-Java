@@ -8,22 +8,22 @@ import java.util.Scanner;
 public class Exercise6 {
     public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            int A = 0 ;
+            int B = 0;
+            int C = 0;
+            int D = 0;
+            int DIFERENCA = 0;
 
-        int A = 0 ;
-        int B = 0;
-        int C = 0;
-        int D = 0;
-        int DIFERENCA = 0;
+            A = input.nextInt();
+            B = input.nextInt();
+            C = input.nextInt();
+            D = input.nextInt();
 
-        A = input.nextInt();
-        B = input.nextInt();
-        C = input.nextInt();
-        D = input.nextInt();
+            DIFERENCA = (A*B-C*D);
 
-        DIFERENCA = (A*B-C*D);
-
-        System.out.println("DIFERENCA = " + DIFERENCA);
+            System.out.println("DIFERENCA = " + DIFERENCA);
+        }
         
     }
         
