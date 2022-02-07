@@ -23,7 +23,7 @@ public class Exercise8{
 
         total = ((salestotal * 0.15) + salary);
 
-        System.out.printf("TOTAL= %.2f\n", total);
+        System.out.printf("TOTAL= R$ %.2f\n", total);
         
     }
 
