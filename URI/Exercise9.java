@@ -5,9 +5,40 @@
 
 package URI;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Exercise9 {
     public static void main(String[] args){
 
+        Locale.setDefault(Locale.US);
 
+        try (Scanner scan = new Scanner(System.in)) {
+            int product1 = 0;
+            int units1 = 0;
+            double price1 = 0;
+
+            int product2 = 0;
+            int units2 = 0;
+            double price2 = 0;
+
+            double value = 0; 
+
+            System.out.println("PRODUTO 1:");
+
+            product1 = scan.nextInt();
+            units1  = scan.nextInt();
+            price1 = scan.nextDouble();
+
+            System.out.println("PRODUTO 2:");
+
+            product2 = scan.nextInt();
+            units2 = scan.nextInt();
+            price2 = scan.nextDouble();
+
+            value = (price1 + price2 * units1 * units2);
+
+            System.out.printf("VALOR A PAGAR: R$ %.2f\n", value);
+        }
     }
 }
