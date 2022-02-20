@@ -1,6 +1,6 @@
 package URI;
 /**construtor escola */
-public class Exercise12{
+public class Student{
     /**Aluno*/
 	String nome;
 	int matricula;

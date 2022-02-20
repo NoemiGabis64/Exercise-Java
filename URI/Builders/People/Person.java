@@ -1,6 +1,6 @@
 package URI;
 /**construtor pessoas */
-public class Exercise13{
+public class Person{
 
     String nome;
     int idade = 0;

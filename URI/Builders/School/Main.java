@@ -1,6 +1,6 @@
 package URI;
 /**construtor escola */
-public class Exercise16{
+public class Main{
 	/**Principal*/
 	public static void main(String[] args) {
 		

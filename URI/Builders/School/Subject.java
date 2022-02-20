@@ -1,6 +1,6 @@
 package URI;
 /*construtor escola*/
-public class Exercise10 {
+public class Subject {
 	/**Disciplina*/
 	Aluno carlos = new Aluno();
 	

@@ -1,6 +1,6 @@
 package URI;
 /**construtor pessoas */
-public class Exercise14{
+public class Main{
 
 	public static void main(String[] args) {
             int vetor[] = {};
