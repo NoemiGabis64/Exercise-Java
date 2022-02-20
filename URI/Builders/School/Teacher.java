@@ -1,12 +1,15 @@
 package URI;
-/**construtor escola */
+
 public class Teacher {
-	/**Professor*/
-	String nome;
-	String formacao;
+
+	String name;
+	String formation;
 	
-	public void FormacaodoProfessor(String nome, String formacao) {
-		this.nome = nome;
-		this.formacao = formacao;
+	/** For the class "Teacher" create a constructor that takes as parameters the name and
+	and pass their values to the class attributes; */
+
+	public TeacherTraining (String name, String formation) {
+		this.name = name;
+		this.formation = formation;
 	}
 }
