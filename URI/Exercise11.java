@@ -1,30 +1,18 @@
 package URI;
-/**contrutor */
+/**construtor escola */
+public class Exercise12{
+    /**Aluno*/
+	String nome;
+	int matricula;
+	int numdisciplinasA = 0;
+	int numdisciplinasR = 0;
 
-import java.util.Locale;
-import java.util.Scanner;
-
-public class Exercise11 {
-
-	public static void main(String[] args) {
-		
-		Locale.setDefault(Locale.US);
-		Scanner leia = new Scanner(System.in); 
-		
-		double Custo_de_Fabrica = 0;
-		double Porcentagem_do_Distribuidor = 0;
-		double Imposto = 0;
-		double veiculo = 20.000;
-		
-		
-		Custo_de_Fabrica = ((Porcentagem_do_Distribuidor*0.35)   + (Imposto*0.57));
-		
-		veiculo = veiculo + Custo_de_Fabrica;
-		
-		System.out.println("O Custo de Fábrica é :" + Custo_de_Fabrica);
-		System.out.println("A Porcentagem do Distribuidor é:" + Porcentagem_do_Distribuidor);
-		System.out.println("O Imposto é:" + Imposto);
-		
+	public void DadosdoAluno(String nome, int matricula) {
+		this.nome = nome;
+		this.matricula = matricula;
 	}
-
+	
+	public void exibirResultado() {
+		System.out.printf("O aluno ", nome ," foi aprovado em ", numdisciplinasA ," disciplina(s) e reprovado em ", numdisciplinasR ," disciplina(s). ");
+	}
 }

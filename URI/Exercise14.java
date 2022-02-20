@@ -1,18 +1,27 @@
 package URI;
-/**construtor pessoas */
-public class Exercise14{
-
+/**construtor escola */
+public class Exercise16{
+	/**Principal*/
 	public static void main(String[] args) {
-            int vetor[] = {};
-                
-        pessoas p1 = new pessoas ("Fernanda", 23 , 73.5, 1.80, "Feminino");  
-		pessoas  p2 = new pessoas("Julia", 45, 68.7, 1.75, "Feminino");  
-        pessoas p3 = new pessoas("Maria", 19, 63.3, 1.73, "Feminino");  
-        pessoas p4 = new  pessoas("João", 05 48.2,1.57, "Masculino");  
-        pessoas p5 = new pessoas ("Lucas", 12, 56.0,1.65, "Masculino");  
-    
-            for(int cont = 0; cont < 5; cont++){
-                vetor[cont];
-            }
-    }
+		
+		Aluno carlos = new Aluno("Carlos", 12345);  
+		Professor teacher1 = new Professor("José", "Graduado");  
+        Professor teacher2 = new Professor("Maria", "Mestre");  
+        Professor teacher3 = new Professor("Paulo", "Doutor");  
+        Disciplinas matematica = new Disciplinas("Matemática", carlos, teacher1);  
+        Disciplinas portugues = new Disciplinas("Português", carlos, teacher2);  
+        Disciplinas fisica = new Disciplinas("Física", carlos, teacher3);  
+        
+        matematica.lancarNota(6.5f, 5.0f, 7.0f, 4.5f);  
+		matematica.calcularMedia();
+		portugues.lancarNota(8f, 9f, 7.0f, 4.5f);
+		
+		portugues.calcularMedia();  
+		fisica.lancarNota(2.5f, 5.0f, 9.0f, 5.5f);  
+		fisica.calcularMedia();  
+		carlos.exibirResultado();  
+		 
+
+	}
+
 }
