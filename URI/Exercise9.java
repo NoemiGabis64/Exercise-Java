@@ -36,7 +36,7 @@ public class Exercise9 {
             units2 = scan.nextInt();
             price2 = scan.nextDouble();
 
-            value = (price1 + price2 * units1 * units2);
+            value = ((price1 * units1) + (price2 * units2));
 
             System.out.printf("VALOR A PAGAR: R$ %.2f\n", value);
         }
