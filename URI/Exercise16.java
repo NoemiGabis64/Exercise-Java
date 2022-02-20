@@ -1,6 +1,6 @@
-package PROVA;
-
-public class TestaEscola {
+package URI;
+/**construtor escola */
+public class Exercise16{
 
 	public static void main(String[] args) {
 		

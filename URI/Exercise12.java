@@ -1,6 +1,8 @@
-package PROVA;
+package URI;
 
-public class Aluno {
+/**construtor escola */
+
+public class Exercise12{
     
 	String nome;
 	int matricula;

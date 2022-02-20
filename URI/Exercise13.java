@@ -1,6 +1,6 @@
-package PROVA;
-
-public class pessoas {
+package URI;
+/**construtor pessoas */
+public class Exercise13{
 
     String nome;
     int idade = 0;
@@ -13,7 +13,7 @@ public class pessoas {
         this.idade = idade;
         this.peso = peso;
         this.altura = altura;
-        this sexo = sexo;
+        this.sexo = sexo;
     }
 
 	public static void main(String[] args) {

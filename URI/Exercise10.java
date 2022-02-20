@@ -1,6 +1,6 @@
-package PROVA;
-
-public class Disciplinas {
+package URI;
+/*construtor escola*/
+public class Exercise10 {
 
 	Aluno carlos = new Aluno();
 	
