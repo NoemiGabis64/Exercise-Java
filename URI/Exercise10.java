@@ -3,26 +3,26 @@ package URI;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercise11 {
+public class Exercise10 {
 
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in); 
 		
-		double Custo_de_Fabrica = 0;
-		double Porcentagem_do_Distribuidor = 0;
-		double Imposto = 0;
-		double veiculo = 20.000;
+		double Manufacturing_Cost = 0;
+		double Percentage_Distributed = 0;
+		double Tax = 0;
+		double Vehicle = 20.000;
 		
 		
-		Custo_de_Fabrica = ((Porcentagem_do_Distribuidor*0.35)   + (Imposto*0.57));
+		Manufacturing_Cost = ((Percentage_Distributed*0.35)   + (Tax*0.57));
 		
-		veiculo = veiculo + Custo_de_Fabrica;
+		Vehicle = Vehicle + Manufacturing_Cost;
 		
-		System.out.println("O Custo de Fábrica é :" + Custo_de_Fabrica);
-		System.out.println("A Porcentagem do Distribuidor é:" + Porcentagem_do_Distribuidor);
-		System.out.println("O Imposto é:" + Imposto);
+		System.out.println("The Manufacturing Cost is:" + Manufacturing_Cost);
+		System.out.println("The Percentage Distributed is:" + Percentage_Distributed);
+		System.out.println("The Tax is:" + Tax);
 		
 	}
 
