@@ -1,4 +1,4 @@
-package URI;
+package URI.Builders.School;
 
 /**For the class "Discipline" declare the attributes 'name' (text), 'student' (Student), 'teacher'
 (Teacher), 'grade1' (real number), 'grade2' (real number), 'grade3' (real number), 'grade4'

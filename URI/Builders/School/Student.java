@@ -1,4 +1,4 @@
-package URI;
+package URI.Builders.School;
 
 /** For the class "Student" declare the attributes 'name' (text), 'enrollment' (long integer),
 passed_grades' (long integer), 'approved_grades' (long integer) and 'renewed_grades' (long integer); */

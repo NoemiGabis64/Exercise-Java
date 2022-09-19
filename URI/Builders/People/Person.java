@@ -1,23 +1,25 @@
-package URI;
-/**construtor pessoas */
+package URI.Builders.People;
+
+/**People construtor*/
+
 public class Person{
 
-    String nome;
-    int idade = 0;
-    float peso = 0;
-    float altura = 0;
-    String sexo;
+    String name;
+    int age = 0;
+    float weight = 0;
+    float heigt = 0;
+    String gender;
 
-    public void Pessoas(String nome, int idade, float peso, float altura String Sexo){
-        this.nome = nome;
-        this.idade = idade;
-        this.peso = peso;
-        this.altura = altura;
-        this.sexo = sexo;
+    public Person () { 
+
     }
 
-	public static void main(String[] args) {
-
+    public Person(String name, int age, float weight, float heigt, String gender){
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.heigt = heigt;
+        this.gender = gender;
+    } 
     
-    }
 }

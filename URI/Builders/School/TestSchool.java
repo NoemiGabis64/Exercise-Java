@@ -1,4 +1,4 @@
-package URI;
+package URI.Builders.School;
 
 public class TestSchool{
 	

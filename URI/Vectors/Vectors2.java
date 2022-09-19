@@ -1,4 +1,4 @@
-package URI;
+package URI.Builders;
 
 import java.util.Scanner;
 

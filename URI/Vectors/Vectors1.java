@@ -1,8 +1,8 @@
-package ;URI
+package URI.Vectors;
 
 import java.util.Scanner;
 
-public class Exercise17 {
+public class Vectors1 {
 
 	public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
