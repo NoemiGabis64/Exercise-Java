@@ -1,4 +1,4 @@
-#GitHub README
+## GitHub README
 
 
 [Welcome to my GitHub repository! This README provides an overview of the project, its purpose and successfully show all results of activities through the Java language in which I practice in my free time. You will find simple exercises and even the most complex ones, all the questions of the challenges I did you will find on the Beecrowd website.]
@@ -21,8 +21,8 @@
 [Specify the license under which the project is distributed. For example, you can use the [MIT License](https://opensource.org/licenses/MIT).]
 
 ## Contact
-[by email: noemigabrielly02@gmail.com]
-[or Discord ID: shakur#1255] 
+- [by email: noemigabrielly02@gmail.com]
+- [or Discord ID: shakur#1255] 
 
 ## Changelog
 
