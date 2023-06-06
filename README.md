@@ -21,8 +21,8 @@
 [Specify the license under which the project is distributed. For example, you can use the [MIT License](https://opensource.org/licenses/MIT).]
 
 ## Contact
-- [by email: noemigabrielly02@gmail.com]
-- [or Discord ID: shakur#1255] 
+- by email: noemigabrielly02@gmail.com
+- or Discord ID: shakur#1255
 
 ## Changelog
 
